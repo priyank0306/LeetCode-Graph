@@ -13,6 +13,7 @@ class Solution
         {
             ListNode *temp = node->next;
             *node = *temp;
+          delete temp;
             return;
 
         }
