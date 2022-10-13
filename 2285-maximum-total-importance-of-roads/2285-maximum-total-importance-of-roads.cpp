@@ -26,7 +26,7 @@ class Solution
               temp--;
                 q.pop();
             }
-            for (int i = 0; i < n; i++) cout << count[i] << endl;
+          
             for (int i = 0; i < roads.size(); i++)
             {
                 ans = ans + count[roads[i][0]] + count[roads[i][1]];
